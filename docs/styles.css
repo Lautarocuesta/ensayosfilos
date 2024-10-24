@@ -33,3 +33,37 @@ section {
     background-color: white;
     border-radius: 8px;
 }
+/* Estilo del logo principal */
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Botón de ensayo final */
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo del footer */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+footer .tecnologias img {
+    width: 50px;
+    margin: 10px;
+}
