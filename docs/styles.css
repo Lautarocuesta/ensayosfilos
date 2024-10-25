@@ -49,11 +49,19 @@ section {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
 }
 
-/* Estilo del logo principal */
-.logo {
-    width: 150px;
-    display: block;
-    margin: 0 auto;
+/* Contenedor de las imágenes en fila */
+.image-gallery {
+    display: flex;
+    justify-content: space-between; /* Espacio entre imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten en varias filas si es necesario */
+}
+
+.image-gallery img {
+    width: 48%; /* Ajusta el tamaño de las imágenes para que ocupen el 48% del ancho cada una */
+    height: auto;
+    border-radius: 8px; /* Esquinas redondeadas para las imágenes */
+    margin-bottom: 20px; /* Espacio inferior entre filas de imágenes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 /* Botón de ensayo final */
@@ -70,16 +78,6 @@ section {
 
 .btn:hover {
     background-color: #0056b3;
-}
-
-/* Estilo de las imágenes */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px; /* Esquinas redondeadas para las imágenes */
-    display: block;
-    margin: 20px auto; /* Centrado */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 /* Estilo del footer */
