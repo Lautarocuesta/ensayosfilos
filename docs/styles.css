@@ -5,34 +5,50 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+
 header {
     background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
 }
+
+header img {
+    width: 100px; /* Ajusta el tamaño del logo */
+    display: block;
+    margin: 0 auto 20px; /* Centra el logo y añade margen inferior */
+}
+
 nav {
     background-color: #444;
     padding: 10px;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
+
 nav ul li {
     display: inline;
     margin-right: 10px;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
 }
+
 section {
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Añadido para centrar el contenido */
     background-color: white;
     border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
 }
+
 /* Estilo del logo principal */
 .logo {
     width: 150px;
@@ -49,10 +65,21 @@ section {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 10px;
+    transition: background-color 0.3s ease; /* Añadido para suavizar el hover */
 }
 
 .btn:hover {
     background-color: #0056b3;
+}
+
+/* Estilo de las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Esquinas redondeadas para las imágenes */
+    display: block;
+    margin: 20px auto; /* Centrado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 /* Estilo del footer */
@@ -66,4 +93,9 @@ footer {
 footer .tecnologias img {
     width: 50px;
     margin: 10px;
+    transition: transform 0.3s ease; /* Animación al pasar el ratón */
+}
+
+footer .tecnologias img:hover {
+    transform: scale(1.1); /* Efecto de agrandado */
 }
