@@ -27,7 +27,6 @@ En el archivo docs/index.html, agrega una nueva sección como esta para el nuevo
 <section id="ensayo3">
     <h2>Ensayo de Alumno 3</h2>
     <p>Este es el ensayo filosófico del Alumno 3.</p>
-    <a href="https://youtube.com/ensayo3">Ver presentación en video</a>
 </section>
 
 1.Actualiza el menú de navegación agregando un nuevo enlace para el ensayo:
